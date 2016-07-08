@@ -1,0 +1,8 @@
+## Interface: 60200
+## Title: Mingy
+## Notes: Automatically highlights the most valuable quest reward with optional autocompletion
+## Author: Sonaza
+## Version: 1.3
+## SavedVariables: MingyDB
+
+Mingy.lua
