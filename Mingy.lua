@@ -1,6 +1,6 @@
 ----------------------------------------
--- Mingy by Sonaza / temu92
--- http://bluefoxgames.org
+-- Mingy by Sonaza
+-- http://sonaza.com
 ----------------------------------------
 
 local Mingy = {
