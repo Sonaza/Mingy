@@ -66,20 +66,9 @@ function Mingy:ConsoleHandler(command)
 			DEFAULT_CHAT_FRAME:AddMessage("|cffeca100Mingy:|r |cff31bc00Enabled|r");
 		end
 		
-	-- elseif(command == "ac" or command == "autocomplete") then
-		
-	-- 	if(MingyDB.AutoComplete == true) then
-	-- 		MingyDB.AutoComplete	= false;
-	-- 		DEFAULT_CHAT_FRAME:AddMessage("|cffeca100Mingy autocompletion:|r |cffbc3100Disabled|r");
-	-- 	else
-	-- 		MingyDB.AutoComplete	= true;
-	-- 		DEFAULT_CHAT_FRAME:AddMessage("|cffeca100Mingy autocompletion:|r |cff31bc00Enabled|r");
-	-- 	end
-	else
 		DEFAULT_CHAT_FRAME:AddMessage("|cffeca100-- Mingy Usage --|r");
 		DEFAULT_CHAT_FRAME:AddMessage("|cff61bee0/mingy|r - Shows Mingy's usage");
 		DEFAULT_CHAT_FRAME:AddMessage("|cff61bee0/mingy toggle|r - Toggle Mingy ("..Mingy:FormatStateText(MingyDB.Enabled)..")");
-		-- DEFAULT_CHAT_FRAME:AddMessage("|cff61bee0/mingy ac or /mingy autocomplete|r - Toggle quest autocompletion ("..Mingy:FormatStateText(MingyDB.AutoComplete)..")");
 	end
 	
 end
